@@ -1,4 +1,8 @@
-import { processRankings, renderRankChange } from "./Leaderboard";
+import { processRankings, renderRankChange, formatTime } from "./Leaderboard";
+import config from './config';
+import { FiUser } from 'react-icons/fi';
+import { GiTimeSynchronization } from 'react-icons/gi';
+import { IoMdStopwatch } from 'react-icons/io';
 
 export default function TeamsLeaderboard({athletes, activities}) {
 
@@ -28,19 +32,29 @@ export default function TeamsLeaderboard({athletes, activities}) {
           const previousRank = previousRankings.indexOf(athleteInPreviousData) + 1;
           const currentRank = i + 1;
 
-          console.log("cur prev rank", currentRank, previousRank);
+          const teamSize = config.teams[teamname].length;
+          const totalTime = formatTime(minutes);
+          const avgTime = formatTime(minutes/teamSize);
 
           return <div className="rank">
             <div className="athlete">
               #{currentRank} {teamname}
             </div>
-            <div className="time">
-              {noActivity && "No actvity"}
-              {hours > 0 && `${hours} hrs `}
-              {mins > 0 && `${mins} mins`}
-            </div>
             <div className="progress">
               {renderRankChange(currentRank, previousRank)}
+            </div>
+            <div className="metadata">
+              <div>
+                <IoMdStopwatch/> {avgTime}
+                <span> (avg. time)</span>
+              </div>
+              <div>
+                <GiTimeSynchronization/> {totalTime}
+                <span> (total time)</span>
+              </div>
+              <div>
+                <FiUser/> {teamSize} Members
+              </div>
             </div>
           </div>
         });

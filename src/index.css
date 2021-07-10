@@ -26,12 +26,15 @@ p{
   display: block;
   width: 300px;
   /* background: red; */
-  margin: 20px auto;
-  padding-bottom: 30px;
+  margin: 15px auto;
+  padding-bottom: 15px!important;
   text-align: left;
   padding: 5px;
   position: relative;
   border-bottom: 1px solid grey;
+}
+.rank:last-of-type{
+  border-bottom: 0;
 }
 
 .athlete{
@@ -44,11 +47,22 @@ p{
   margin-left: 10px;
   display: inline-block;
 }
-
+.metadata {
+  line-height: 30px;
+  padding-top: 7px;
+}
+.metadata span{
+  font-size: 13px;
+}
+.metadata svg{
+  position: relative;
+  top: 2px;
+  padding-right: 5px;
+}
 .progress{
   position: absolute;
   right: 0;
-  top: 0;
+  top: 2px;
 }
 
 .progress.up{

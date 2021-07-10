@@ -17,6 +17,18 @@ export const renderRankChange = (currentRank, previousRank) => {
   return null;
 }
 
+export const formatTime = (minutes) => {
+  const hours = Math.floor(minutes / 60);
+  const mins = Math.round(minutes % 60);
+  const noActivity = !hours && !mins;
+
+  let time = '';
+  if(noActivity) time = "No actvity";
+  if(hours > 0) time = `${hours} hrs `;
+  if(mins > 0) time += `${mins} mins`;
+  return time;
+}
+
 export default function App() {
 
   const getAllData = () => {
@@ -68,6 +80,7 @@ export default function App() {
   };
 
   const renderLeaderboard = (currentWeekActivities, lastWeekActivities, athletes) => {
+    //TODO: rank based on average
     const currentRankings = processRankings(currentWeekActivities, athletes);
     const previousRankings = processRankings(lastWeekActivities, athletes);
 
