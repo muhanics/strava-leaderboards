@@ -5,9 +5,63 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #282c34;
+  color: white;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h3{
+  font-size: 24px;
+  margin-bottom: 0;
+}
+p{
+  font-size: 18px;
+}
+
+.rank{
+  display: block;
+  width: 300px;
+  /* background: red; */
+  margin: 20px auto;
+  padding-bottom: 30px;
+  text-align: left;
+  padding: 5px;
+  position: relative;
+  border-bottom: 1px solid grey;
+}
+
+.athlete{
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+}
+.time{
+  font-size: 15px;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.progress{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.progress.up{
+  color: #5dde5d;
+}
+.progress.down{
+  color: #f04343;
+}
+
+.section{
+  display: inline-block;
+  vertical-align: top;
+}
+.section:first-of-type{
+  margin-right: 100px;
 }

@@ -1,0 +1,10 @@
+{
+    "strava": {
+        "api_url": "https://www.strava.com/api/v3/",
+        "client_id": 0,
+        "club_id": 0,
+        "client_secret": ""
+    },
+    "app_url": "http://localhost:3000",
+    "teams": {}
+}
