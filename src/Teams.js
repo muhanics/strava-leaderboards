@@ -1,5 +1,4 @@
-import { processRankings, renderRankChange, formatTime } from "./Leaderboard";
-import config from './config';
+import { processRankings, renderRankChange, formatTime } from "./utils";
 import { FiUser } from 'react-icons/fi';
 import { GiTimeSynchronization } from 'react-icons/gi';
 import { IoMdStopwatch } from 'react-icons/io';
@@ -8,33 +7,38 @@ export default function TeamsLeaderboard({athletes, activities}) {
 
     const groupIntoTeams = (rankings) => {
         const teams = {};
-        rankings.forEach( ([athleteName, info]) => {
+        rankings.forEach( ([, info]) => {
             const { minutes, team } = info;
-            teams[team] = teams[team] || 0;
-            teams[team] += minutes;
-            console.log("athlete", athleteName, info);
+            const activeTeamSize = getActiveTeamMembers(rankings, team).length;
+            teams[team] = teams[team] || { avgTime: 0, totalTime: 0, activeMembers: 0 };
+            teams[team].totalTime += minutes;
+            teams[team].avgTime += minutes/activeTeamSize;
+            teams[team].activeMembers = activeTeamSize;
         })
-        const sortedTeams = Object.entries(teams).sort(([,a],[,b]) => b-a);
-        console.log("sorted teams", sortedTeams);
+        const sortedTeams = Object.entries(teams).sort(([,a],[,b]) => b.avgTime-a.avgTime);
         return sortedTeams;
     }
 
+    const getActiveTeamMembers = (currentRankings, teamName) => {
+      return currentRankings.filter( ([,member]) => {
+        const belongsToTeam = member.team === teamName;
+        const isActive = member.minutes > 0;
+        return belongsToTeam && isActive;
+      })
+    }
+
     const renderLeaderboard = (currentWeekActivities, lastWeekActivities, athletes) => {
-        const currentRankings = groupIntoTeams(processRankings(currentWeekActivities, athletes));
+        const ungroupedRankings = processRankings(currentWeekActivities, athletes);
+        const currentRankings = groupIntoTeams(ungroupedRankings);
         const previousRankings = groupIntoTeams(processRankings(lastWeekActivities, athletes));
 
-        return currentRankings.map( ([teamname, minutes], i) => {
-          const hours = Math.floor(minutes / 60);
-          const mins = minutes % 60;
-          const noActivity = !hours && !mins;
+        return currentRankings.map( ([teamname, info], i) => {
 
           const athleteInPreviousData = previousRankings.find(([name]) => teamname === name);
           const previousRank = previousRankings.indexOf(athleteInPreviousData) + 1;
           const currentRank = i + 1;
 
-          const teamSize = config.teams[teamname].length;
-          const totalTime = formatTime(minutes);
-          const avgTime = formatTime(minutes/teamSize);
+          const { totalTime, avgTime, activeMembers } = info;
 
           return <div className="rank">
             <div className="athlete">
@@ -45,15 +49,16 @@ export default function TeamsLeaderboard({athletes, activities}) {
             </div>
             <div className="metadata">
               <div>
-                <IoMdStopwatch/> {avgTime}
+                <IoMdStopwatch/> {formatTime(avgTime)}
                 <span> (avg. time)</span>
               </div>
               <div>
-                <GiTimeSynchronization/> {totalTime}
+                <GiTimeSynchronization/> {formatTime(totalTime)}
                 <span> (total time)</span>
               </div>
               <div>
-                <FiUser/> {teamSize} Members
+                <FiUser/> {activeMembers}
+                <span> (active {activeMembers > 1 ? ' members' : ' member'})</span>
               </div>
             </div>
           </div>

@@ -1,46 +1,20 @@
 import './App.css';
 import TeamsLeaderboard from './Teams';
 import config from './config';
-
-export const processRankings = (activities, athletes) => {
-  const athletes2 = JSON.parse(JSON.stringify(athletes));
-  activities.forEach( activity => {
-    athletes2[activity.athlete.firstname].minutes += Math.round(activity.moving_time / 60);
-  })
-  const sortedAthletes = Object.entries(athletes2).sort(([,a],[,b]) => b.minutes-a.minutes);
-  return sortedAthletes;
-}
-
-export const renderRankChange = (currentRank, previousRank) => {
-  if(currentRank > previousRank) return <div className="progress down">&#8595;</div>;
-  if(currentRank < previousRank) return <div className="progress up">&#8593;</div>;
-  return null;
-}
-
-export const formatTime = (minutes) => {
-  const hours = Math.floor(minutes / 60);
-  const mins = Math.round(minutes % 60);
-  const noActivity = !hours && !mins;
-
-  let time = '';
-  if(noActivity) time = "No actvity";
-  if(hours > 0) time = `${hours} hrs `;
-  if(mins > 0) time += `${mins} mins`;
-  return time;
-}
+import { processRankings, renderRankChange } from './utils';
 
 export default function App() {
 
-  const getAllData = () => {
+  const getAllData = (startingIndex = 0) => {
     const context = require.context('./data', true, /.json$/);
     const allData = [];
-    context.keys().forEach((key) => {
+    context.keys().forEach((key, i) => {
       const fileName = key.replace('./', '');
       const resource = require(`./data/${fileName}`);
       allData.push(JSON.parse(JSON.stringify(resource)))
     });
     allData.reverse();
-    return allData;
+    return allData.filter( (data, i) => i >= startingIndex);
   }
 
   const findAthletesTeam = ({firstname}) => {
@@ -52,8 +26,8 @@ export default function App() {
   const getAthletes = (activities) => {
     const athletes = {};
     activities.forEach( ({ athlete }) => {
-      const { firstname } = athlete;
-      athletes[firstname] = {
+      const { firstname, lastname } = athlete;
+      athletes[`${firstname}_${lastname}`] = {
         minutes: 0,
         team: findAthletesTeam(athlete)
       };
@@ -70,17 +44,22 @@ export default function App() {
     })
   }
 
+  const concatData = (datasets) => {
+    return datasets.map( ({data}) => data).flat();
+  }
+
   const getRecentData = ([currentWeek, lastWeek, weekBeforeLast]) => {
     if(!weekBeforeLast) weekBeforeLast = {data: []};
     //above check only required for first two weeks of running (insufficient data)
+    const dataBeforeCurrentWeek = concatData(getAllData(1));
+    const dataBeforeLastWeek = concatData(getAllData(2));
     return {
-      currentWeek: findNewActivities(currentWeek.data, lastWeek.data),
-      lastWeek: findNewActivities(lastWeek.data, weekBeforeLast.data)
+      currentWeek: findNewActivities(currentWeek.data, dataBeforeCurrentWeek),
+      lastWeek: findNewActivities(lastWeek.data, dataBeforeLastWeek)
     };
   };
 
   const renderLeaderboard = (currentWeekActivities, lastWeekActivities, athletes) => {
-    //TODO: rank based on average
     const currentRankings = processRankings(currentWeekActivities, athletes);
     const previousRankings = processRankings(lastWeekActivities, athletes);
 
@@ -92,10 +71,11 @@ export default function App() {
       const athleteInPreviousData = previousRankings.find(([name]) => athleteName === name);
       const previousRank = previousRankings.indexOf(athleteInPreviousData) + 1;
       const currentRank = i + 1;
+      const displayName = athleteName.replace(`_`, ' ');
 
       return <div className="rank">
         <div className="athlete">
-          #{currentRank} {athleteName}
+          #{currentRank} {displayName}
         </div>
         <div className="time">
           {noActivity && "No actvity"}
@@ -110,7 +90,11 @@ export default function App() {
   }
 
   const allData = getAllData();
+  console.log("all data", allData);
   const {currentWeek, lastWeek } = getRecentData(allData);
+
+  console.log("cur week data", currentWeek);
+
   const athletes = getAthletes([...currentWeek, ...lastWeek]);
 
   const currentWeekNumber = allData[0].week;
@@ -120,15 +104,15 @@ export default function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h3>Fixter Champions - Week {currentWeekNumber}</h3>
+        <h1>Fixter Champions - Week {currentWeekNumber}</h1>
         <p>{lastWeekDate} to {currentWeekDate}</p>
       </header>
       <div className="section">
-        <div class="title">Solo Rankings</div>
+        <h2 class="title">Solo Rankings</h2>
         {renderLeaderboard(currentWeek, lastWeek, athletes)}
       </div>
       <div className="section">
-        <div class="title">Team Rankings</div>
+        <h2 class="title">Team Rankings</h2>
         <TeamsLeaderboard athletes={athletes} activities={{currentWeek, lastWeek}} />
       </div>
     </div>
