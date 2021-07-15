@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Leaderboard from './Leaderboard';
-import Contentful from './Contentful';
+import V2 from './V2';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Contentful />
+    <V2 />
     {/* <App /> */}
     {/* <Leaderboard/> */}
   </React.StrictMode>,

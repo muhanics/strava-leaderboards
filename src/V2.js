@@ -1,27 +1,27 @@
 import './App.css';
-import config from './config';
 import { useState, useEffect } from "react";
-import { exchangeToken, authorizeStrava, getAthleteInfo } from './api/strava';
-import { getAthletes } from './api/contentful';
+import { exchangeToken, authorizeStrava, getAthleteInfo, getAthleteActivities } from './api/strava';
+import { getAthletes, createEntry } from './api/contentful';
 
 export default function App() {
-  const { strava, contentful } = config;
-
   const syncStravaToContentful = async (code) => {
     const stravaToken = await exchangeToken(code);
-    const athlete = await getAthleteInfo(stravaToken);
-    console.log("athlete", athlete);
+    const athlete = await getAthleteInfo(stravaToken); //don't need this req as the info is received after auth
     const athletes = await getAthletes();
-    console.log("athletes", athletes);
-    const isNewAthlete = !athletes.find( existingAthlete => {
-      console.log("existing", existingAthlete);
-      console.log("new", athlete.firstName, athlete.lastName);
-      return existingAthlete.firstName === athlete.firstname && existingAthlete.lastName === athlete.lastname
-    }
+
+    const isNewAthlete = !athletes.find( existingAthlete =>
+      existingAthlete.firstName === athlete.firstname
+        && existingAthlete.lastName === athlete.lastname
     );
-    console.log("is new athlete", isNewAthlete);
-    //check if athlete exists in contentful
-    //if not, insert athlete
+    if(isNewAthlete) createEntry('athlete',{
+      athleteId: athlete.id,
+      firstName: athlete.firstname,
+      lastName: athlete.lastname
+    });
+
+    getAthleteActivities(stravaToken);
+    //check if these activities exist in contentful
+    //insert any new ones
   }
 
   useEffect(() => {
