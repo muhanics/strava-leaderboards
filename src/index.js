@@ -8,9 +8,12 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <V2 />
+    {/* <V2 /> */}
+    {/* above was WIP not complete - contentful one */}
+
+
     {/* <App /> */}
-    {/* <Leaderboard/> */}
+    <Leaderboard/>
   </React.StrictMode>,
   document.getElementById('root')
 );

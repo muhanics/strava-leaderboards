@@ -1,6 +1,7 @@
+import moment from 'moment';
+
 export const processRankings = (activities, athletes) => {
     const athletesObj = JSON.parse(JSON.stringify(athletes));
-    console.log("athobj", athletesObj)
     activities.forEach( activity => {
       const { firstname, lastname } = activity.athlete;
       const name = `${firstname}_${lastname}`;
@@ -26,4 +27,14 @@ export const processRankings = (activities, athletes) => {
     if(hours > 0) time = `${hours} hrs `;
     if(mins > 0) time += `${mins} mins`;
     return time;
+  }
+
+  export const mapName = (originalName, mappings) => {
+    const mappedName = mappings[originalName];
+    return mappedName || originalName;
+  }
+
+  export const formatDateByFilename = (fileName) => {
+    const rawDate = fileName.replace('.json', '');
+    return moment(rawDate, 'YYMMDD').format('DD/MM/YY');
   }

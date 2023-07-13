@@ -1,0 +1,1401 @@
+[{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Run #109-2: Brighton Phoenix 10K",
+    "distance": 10061.2,
+    "moving_time": 2889,
+    "elapsed_time": 2889,
+    "total_elevation_gain": 34.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 1
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Run #109-1",
+    "distance": 351.0,
+    "moving_time": 120,
+    "elapsed_time": 140,
+    "total_elevation_gain": 12.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 0
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Sam",
+        "lastname": "B."
+    },
+    "name": "Morning Run",
+    "distance": 5015.9,
+    "moving_time": 1639,
+    "elapsed_time": 1678,
+    "total_elevation_gain": 7.2,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": null
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Muhan",
+        "lastname": "A."
+    },
+    "name": "Quick Workout  11/07/23",
+    "distance": 0.0,
+    "moving_time": 900,
+    "elapsed_time": 900,
+    "total_elevation_gain": 0.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": null
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Run #108",
+    "distance": 9305.3,
+    "moving_time": 3011,
+    "elapsed_time": 3823,
+    "total_elevation_gain": 97.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 3
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Run #107",
+    "distance": 8000.6,
+    "moving_time": 2681,
+    "elapsed_time": 3330,
+    "total_elevation_gain": 54.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 3
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "F",
+        "lastname": "D."
+    },
+    "name": "Course à pied en soirée",
+    "distance": 7277.8,
+    "moving_time": 3084,
+    "elapsed_time": 3294,
+    "total_elevation_gain": 82.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": null
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Sam",
+        "lastname": "B."
+    },
+    "name": "1s and 2s",
+    "distance": 10013.9,
+    "moving_time": 3466,
+    "elapsed_time": 3484,
+    "total_elevation_gain": 12.9,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 0
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Run #106",
+    "distance": 12004.0,
+    "moving_time": 3549,
+    "elapsed_time": 4073,
+    "total_elevation_gain": 13.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 3
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Muhan",
+        "lastname": "A."
+    },
+    "name": "Boxing bag work 08/07/23",
+    "distance": 0.0,
+    "moving_time": 1800,
+    "elapsed_time": 1800,
+    "total_elevation_gain": 0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 0
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Swim #7",
+    "distance": 1600.0,
+    "moving_time": 2971,
+    "elapsed_time": 2971,
+    "total_elevation_gain": 0,
+    "type": "Swim",
+    "sport_type": "Swim"
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Run #105",
+    "distance": 15006.8,
+    "moving_time": 5253,
+    "elapsed_time": 5809,
+    "total_elevation_gain": 32.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 0
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Jeanne",
+        "lastname": "T."
+    },
+    "name": "Before work",
+    "distance": 5006.8,
+    "moving_time": 1719,
+    "elapsed_time": 1725,
+    "total_elevation_gain": 90.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 0
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Run #104",
+    "distance": 8412.1,
+    "moving_time": 2843,
+    "elapsed_time": 3553,
+    "total_elevation_gain": 50.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 3
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Run #103",
+    "distance": 7400.3,
+    "moving_time": 2416,
+    "elapsed_time": 2859,
+    "total_elevation_gain": 75.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 3
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Run #102",
+    "distance": 17011.3,
+    "moving_time": 5726,
+    "elapsed_time": 6869,
+    "total_elevation_gain": 74.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 2
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Gabriel",
+        "lastname": "A."
+    },
+    "name": "Afternoon Run",
+    "distance": 2867.4,
+    "moving_time": 1007,
+    "elapsed_time": 2267,
+    "total_elevation_gain": 2.4,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 3
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Gabriel",
+        "lastname": "A."
+    },
+    "name": "Afternoon Run",
+    "distance": 3071.2,
+    "moving_time": 1132,
+    "elapsed_time": 2241,
+    "total_elevation_gain": 0.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 3
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Run #101",
+    "distance": 12010.4,
+    "moving_time": 4138,
+    "elapsed_time": 5196,
+    "total_elevation_gain": 36.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 0
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Run #1️⃣0️⃣0️⃣",
+    "distance": 13006.1,
+    "moving_time": 4106,
+    "elapsed_time": 5026,
+    "total_elevation_gain": 32.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 3
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "F",
+        "lastname": "D."
+    },
+    "name": "Course à pied en soirée",
+    "distance": 5915.4,
+    "moving_time": 2311,
+    "elapsed_time": 2376,
+    "total_elevation_gain": 37.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": null
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Cycle #20-2",
+    "distance": 4000.1,
+    "moving_time": 1128,
+    "elapsed_time": 1616,
+    "total_elevation_gain": 42.0,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": 10
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Swim #6",
+    "distance": 1500.0,
+    "moving_time": 2733,
+    "elapsed_time": 2733,
+    "total_elevation_gain": 0,
+    "type": "Swim",
+    "sport_type": "Swim"
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Cycle #20-1",
+    "distance": 3845.1,
+    "moving_time": 852,
+    "elapsed_time": 1016,
+    "total_elevation_gain": 4.0,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": 10
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Gabriel",
+        "lastname": "A."
+    },
+    "name": "Afternoon Run",
+    "distance": 3614.0,
+    "moving_time": 1199,
+    "elapsed_time": 2337,
+    "total_elevation_gain": 0.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 0
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Run #99",
+    "distance": 25057.6,
+    "moving_time": 10746,
+    "elapsed_time": 12433,
+    "total_elevation_gain": 523.0,
+    "type": "Run",
+    "sport_type": "TrailRun",
+    "workout_type": 2
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "F",
+        "lastname": "D."
+    },
+    "name": "Course à pied en soirée",
+    "distance": 6599.7,
+    "moving_time": 2542,
+    "elapsed_time": 2892,
+    "total_elevation_gain": 7.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": null
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Run #98-2",
+    "distance": 4753.8,
+    "moving_time": 1662,
+    "elapsed_time": 1662,
+    "total_elevation_gain": 5.6,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 0
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Run #98-1",
+    "distance": 5334.5,
+    "moving_time": 1789,
+    "elapsed_time": 2012,
+    "total_elevation_gain": 3.6,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 0
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Swim #5",
+    "distance": 1300.0,
+    "moving_time": 2380,
+    "elapsed_time": 2380,
+    "total_elevation_gain": 0,
+    "type": "Swim",
+    "sport_type": "Swim"
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Run #97",
+    "distance": 12007.8,
+    "moving_time": 3812,
+    "elapsed_time": 4453,
+    "total_elevation_gain": 26.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 3
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Run #96",
+    "distance": 13323.0,
+    "moving_time": 4453,
+    "elapsed_time": 8500,
+    "total_elevation_gain": 52.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 0
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Run #95",
+    "distance": 18399.6,
+    "moving_time": 6184,
+    "elapsed_time": 7278,
+    "total_elevation_gain": 33.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 3
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "F",
+        "lastname": "D."
+    },
+    "name": "Course à pied en soirée",
+    "distance": 5553.9,
+    "moving_time": 2525,
+    "elapsed_time": 2964,
+    "total_elevation_gain": 66.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": null
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Gabriel",
+        "lastname": "A."
+    },
+    "name": "Morning Run",
+    "distance": 3954.7,
+    "moving_time": 1184,
+    "elapsed_time": 1834,
+    "total_elevation_gain": 0.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 3
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Run #94",
+    "distance": 9508.2,
+    "moving_time": 3271,
+    "elapsed_time": 3737,
+    "total_elevation_gain": 100.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 3
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Jeanne",
+        "lastname": "T."
+    },
+    "name": "Back on rails",
+    "distance": 5009.5,
+    "moving_time": 1714,
+    "elapsed_time": 1725,
+    "total_elevation_gain": 86.8,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 0
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Swim #4",
+    "distance": 402.3,
+    "moving_time": 757,
+    "elapsed_time": 1937,
+    "total_elevation_gain": 0.0,
+    "type": "Swim",
+    "sport_type": "Swim"
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Run #93",
+    "distance": 9001.4,
+    "moving_time": 2802,
+    "elapsed_time": 3527,
+    "total_elevation_gain": 32.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 0
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Run #92",
+    "distance": 8016.5,
+    "moving_time": 2670,
+    "elapsed_time": 2877,
+    "total_elevation_gain": 18.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 0
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Run #91",
+    "distance": 16006.5,
+    "moving_time": 5854,
+    "elapsed_time": 6685,
+    "total_elevation_gain": 30.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 3
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "L",
+        "lastname": "C."
+    },
+    "name": "Morning Ride",
+    "distance": 32521.4,
+    "moving_time": 4546,
+    "elapsed_time": 4801,
+    "total_elevation_gain": 71.4,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": 0
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Gabriel",
+        "lastname": "A."
+    },
+    "name": "Afternoon Run",
+    "distance": 7423.2,
+    "moving_time": 2447,
+    "elapsed_time": 3803,
+    "total_elevation_gain": 5.4,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 0
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Sam",
+        "lastname": "B."
+    },
+    "name": "7 hot KM’s with Gus ",
+    "distance": 6906.4,
+    "moving_time": 2207,
+    "elapsed_time": 2289,
+    "total_elevation_gain": 10.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 0
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Run #90",
+    "distance": 14004.2,
+    "moving_time": 4335,
+    "elapsed_time": 5591,
+    "total_elevation_gain": 50.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 3
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Run #89",
+    "distance": 6017.7,
+    "moving_time": 2094,
+    "elapsed_time": 2911,
+    "total_elevation_gain": 59.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 0
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Gabriel",
+        "lastname": "A."
+    },
+    "name": "Morning Run",
+    "distance": 3499.0,
+    "moving_time": 1194,
+    "elapsed_time": 2072,
+    "total_elevation_gain": 0.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 0
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Cycle #19-2",
+    "distance": 3501.1,
+    "moving_time": 824,
+    "elapsed_time": 824,
+    "total_elevation_gain": 98.0,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": 10
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Run #88",
+    "distance": 6017.3,
+    "moving_time": 1492,
+    "elapsed_time": 2645,
+    "total_elevation_gain": 17.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 3
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Cycle #19-1",
+    "distance": 3602.9,
+    "moving_time": 835,
+    "elapsed_time": 897,
+    "total_elevation_gain": 52.0,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": 10
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Cycle #18-2",
+    "distance": 3919.9,
+    "moving_time": 1005,
+    "elapsed_time": 1099,
+    "total_elevation_gain": 41.0,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": 10
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Swim #3",
+    "distance": 2350.0,
+    "moving_time": 2402,
+    "elapsed_time": 2645,
+    "total_elevation_gain": 0,
+    "type": "Swim",
+    "sport_type": "Swim"
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Cycle #18-1",
+    "distance": 3918.4,
+    "moving_time": 887,
+    "elapsed_time": 1011,
+    "total_elevation_gain": 1.0,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": 10
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Run #87",
+    "distance": 14699.4,
+    "moving_time": 5154,
+    "elapsed_time": 6624,
+    "total_elevation_gain": 321.0,
+    "type": "Run",
+    "sport_type": "TrailRun",
+    "workout_type": 0
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Gabriel",
+        "lastname": "A."
+    },
+    "name": "Lunch Run",
+    "distance": 5530.0,
+    "moving_time": 1900,
+    "elapsed_time": 3217,
+    "total_elevation_gain": 2.7,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 0
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "F",
+        "lastname": "D."
+    },
+    "name": "Course à pied dans l'après-midi",
+    "distance": 7094.2,
+    "moving_time": 2697,
+    "elapsed_time": 2744,
+    "total_elevation_gain": 11.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": null
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "F",
+        "lastname": "D."
+    },
+    "name": "Course à pied le matin",
+    "distance": 7090.0,
+    "moving_time": 2264,
+    "elapsed_time": 2272,
+    "total_elevation_gain": 13.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": null
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "L",
+        "lastname": "C."
+    },
+    "name": "Wimbledon, Bushy Park \u0026 Richmond Park",
+    "distance": 68008.9,
+    "moving_time": 11137,
+    "elapsed_time": 15160,
+    "total_elevation_gain": 324.8,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": 10
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "F",
+        "lastname": "D."
+    },
+    "name": "Sortie vélo le matin",
+    "distance": 15848.2,
+    "moving_time": 1907,
+    "elapsed_time": 1922,
+    "total_elevation_gain": 31.0,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": null
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "F",
+        "lastname": "D."
+    },
+    "name": "Sortie vélo de nuit",
+    "distance": 15819.8,
+    "moving_time": 1863,
+    "elapsed_time": 1863,
+    "total_elevation_gain": 32.0,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": null
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "F",
+        "lastname": "D."
+    },
+    "name": "Sortie vélo en soirée",
+    "distance": 22322.0,
+    "moving_time": 2593,
+    "elapsed_time": 2593,
+    "total_elevation_gain": 39.0,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": null
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "F",
+        "lastname": "D."
+    },
+    "name": "Natation en soirée",
+    "distance": 1370.3,
+    "moving_time": 1564,
+    "elapsed_time": 1564,
+    "total_elevation_gain": 0.0,
+    "type": "Swim",
+    "sport_type": "Swim"
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Gabriel",
+        "lastname": "A."
+    },
+    "name": "Afternoon Run",
+    "distance": 5481.1,
+    "moving_time": 1894,
+    "elapsed_time": 3112,
+    "total_elevation_gain": 18.3,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 0
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "F",
+        "lastname": "D."
+    },
+    "name": "Natation dans l'après-midi",
+    "distance": 0.0,
+    "moving_time": 0,
+    "elapsed_time": 0,
+    "total_elevation_gain": 0,
+    "type": "Swim",
+    "sport_type": "Swim"
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "F",
+        "lastname": "D."
+    },
+    "name": "Natation dans l'après-midi",
+    "distance": 1351.7,
+    "moving_time": 1421,
+    "elapsed_time": 1421,
+    "total_elevation_gain": 0.0,
+    "type": "Swim",
+    "sport_type": "Swim"
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Run #86",
+    "distance": 6503.7,
+    "moving_time": 2217,
+    "elapsed_time": 2590,
+    "total_elevation_gain": 49.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 0
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Cycle #17-2",
+    "distance": 8159.8,
+    "moving_time": 1379,
+    "elapsed_time": 1394,
+    "total_elevation_gain": 37.0,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": 10
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Cycle #17-1",
+    "distance": 10520.8,
+    "moving_time": 3711,
+    "elapsed_time": 3990,
+    "total_elevation_gain": 241.0,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": 10
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "L",
+        "lastname": "C."
+    },
+    "name": "Green lights all the way",
+    "distance": 4314.8,
+    "moving_time": 767,
+    "elapsed_time": 963,
+    "total_elevation_gain": 13.4,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": 10
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Run #85",
+    "distance": 7622.6,
+    "moving_time": 2508,
+    "elapsed_time": 2912,
+    "total_elevation_gain": 32.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 0
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "F",
+        "lastname": "D."
+    },
+    "name": "Course à pied en soirée",
+    "distance": 6908.1,
+    "moving_time": 2528,
+    "elapsed_time": 2566,
+    "total_elevation_gain": 8.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": null
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "F",
+        "lastname": "D."
+    },
+    "name": "Sortie VTT dans l'après-midi",
+    "distance": 26344.1,
+    "moving_time": 6428,
+    "elapsed_time": 9511,
+    "total_elevation_gain": 78.0,
+    "type": "Ride",
+    "sport_type": "MountainBikeRide",
+    "workout_type": 10
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Cycle #16-2: RideLondon 100",
+    "distance": 154601.0,
+    "moving_time": 19330,
+    "elapsed_time": 32123,
+    "total_elevation_gain": 1030.0,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": 11
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Cycle #16-1",
+    "distance": 7665.4,
+    "moving_time": 1553,
+    "elapsed_time": 2227,
+    "total_elevation_gain": 33.0,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": 10
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "F",
+        "lastname": "D."
+    },
+    "name": "Course à pied en soirée",
+    "distance": 7674.6,
+    "moving_time": 3102,
+    "elapsed_time": 3164,
+    "total_elevation_gain": 10.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": null
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "L",
+        "lastname": "C."
+    },
+    "name": "Boucle de la Marne",
+    "distance": 23506.7,
+    "moving_time": 5583,
+    "elapsed_time": 6875,
+    "total_elevation_gain": 77.7,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": 10
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "F",
+        "lastname": "D."
+    },
+    "name": "Course à pied en soirée",
+    "distance": 4010.0,
+    "moving_time": 1374,
+    "elapsed_time": 1380,
+    "total_elevation_gain": 18.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": null
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "F",
+        "lastname": "D."
+    },
+    "name": "Course à pied en soirée",
+    "distance": 3042.8,
+    "moving_time": 1243,
+    "elapsed_time": 1337,
+    "total_elevation_gain": 9.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": null
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Run #84",
+    "distance": 6643.9,
+    "moving_time": 2275,
+    "elapsed_time": 3027,
+    "total_elevation_gain": 70.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 0
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Gabriel",
+        "lastname": "A."
+    },
+    "name": "Morning Run",
+    "distance": 2147.7,
+    "moving_time": 719,
+    "elapsed_time": 1534,
+    "total_elevation_gain": 14.5,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 3
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Cycle #15",
+    "distance": 20543.5,
+    "moving_time": 3737,
+    "elapsed_time": 4138,
+    "total_elevation_gain": 87.0,
+    "type": "Ride",
+    "sport_type": "Ride",
+    "workout_type": 10
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Run #83",
+    "distance": 12555.0,
+    "moving_time": 4116,
+    "elapsed_time": 7665,
+    "total_elevation_gain": 47.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 0
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Gabriel",
+        "lastname": "A."
+    },
+    "name": "Morning Run",
+    "distance": 2529.2,
+    "moving_time": 860,
+    "elapsed_time": 1781,
+    "total_elevation_gain": 5.4,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 3
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Gabriel",
+        "lastname": "A."
+    },
+    "name": "Morning Run",
+    "distance": 2607.8,
+    "moving_time": 933,
+    "elapsed_time": 1696,
+    "total_elevation_gain": 6.7,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 3
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Run #82",
+    "distance": 7006.4,
+    "moving_time": 2150,
+    "elapsed_time": 3199,
+    "total_elevation_gain": 66.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 3
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Run #81 🎂 ",
+    "distance": 6677.4,
+    "moving_time": 2201,
+    "elapsed_time": 3276,
+    "total_elevation_gain": 18.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 0
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Agnes",
+        "lastname": "C."
+    },
+    "name": "2023 Run #80",
+    "distance": 6012.3,
+    "moving_time": 1974,
+    "elapsed_time": 2516,
+    "total_elevation_gain": 16.0,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 0
+},
+{
+    "resource_state": 2,
+    "athlete": {
+        "resource_state": 2,
+        "firstname": "Gabriel",
+        "lastname": "A."
+    },
+    "name": "Morning Run",
+    "distance": 2191.4,
+    "moving_time": 771,
+    "elapsed_time": 1912,
+    "total_elevation_gain": 6.2,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 3
+}
+]

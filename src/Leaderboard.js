@@ -1,7 +1,7 @@
 import './App.css';
 import TeamsLeaderboard from './Teams';
 import config from './config';
-import { processRankings, renderRankChange } from './utils';
+import { processRankings, renderRankChange, mapName, formatDateByFilename } from './utils';
 
 export default function App() {
 
@@ -11,9 +11,17 @@ export default function App() {
     context.keys().forEach((key, i) => {
       const fileName = key.replace('./', '');
       const resource = require(`./data/${fileName}`);
-      allData.push(JSON.parse(JSON.stringify(resource)))
+
+      const activitySet = {
+        week: i,
+        date: formatDateByFilename(fileName),
+        activities: JSON.parse(JSON.stringify(resource))
+      };
+
+      allData.push(activitySet)
     });
     allData.reverse();
+    console.log("allData", allData);
     return allData.filter( (data, i) => i >= startingIndex);
   }
 
@@ -36,6 +44,8 @@ export default function App() {
   }
 
   const findNewActivities = (newData, oldData) => {
+    console.log("newData", newData);
+    console.log("oldData", oldData);
     return newData.filter( newActivity => {
       const existsInOldData = oldData.find( oldActivity => {
         return JSON.stringify(newActivity) === JSON.stringify(oldActivity)
@@ -45,7 +55,8 @@ export default function App() {
   }
 
   const concatData = (datasets) => {
-    return datasets.map( ({data}) => data).flat();
+    console.log("datasets", datasets);
+    return datasets.map( ({activities}) => activities).flat();
   }
 
   const getRecentData = ([currentWeek, lastWeek, weekBeforeLast]) => {
@@ -53,9 +64,13 @@ export default function App() {
     //above check only required for first two weeks of running (insufficient data)
     const dataBeforeCurrentWeek = concatData(getAllData(1));
     const dataBeforeLastWeek = concatData(getAllData(2));
+
+    console.log("dataBeforeCurrentWeek", dataBeforeCurrentWeek);
+    console.log("dataBeforeLastWeek", dataBeforeLastWeek);
+
     return {
-      currentWeek: findNewActivities(currentWeek.data, dataBeforeCurrentWeek),
-      lastWeek: findNewActivities(lastWeek.data, dataBeforeLastWeek)
+      currentWeek: findNewActivities(currentWeek.activities, dataBeforeCurrentWeek),
+      lastWeek: findNewActivities(lastWeek.activities, dataBeforeLastWeek)
     };
   };
 
@@ -71,7 +86,8 @@ export default function App() {
       const athleteInPreviousData = previousRankings.find(([name]) => athleteName === name);
       const previousRank = previousRankings.indexOf(athleteInPreviousData) + 1;
       const currentRank = i + 1;
-      const displayName = athleteName.replace(`_`, ' ');
+      const originalName = athleteName.replace(`_`, ' ');
+      const displayName = mapName(originalName, config.nameMappings);
 
       return <div className="rank">
         <div className="athlete">
@@ -90,10 +106,8 @@ export default function App() {
   }
 
   const allData = getAllData();
-  console.log("all data", allData);
   const {currentWeek, lastWeek } = getRecentData(allData);
 
-  console.log("cur week data", currentWeek);
 
   const athletes = getAthletes([...currentWeek, ...lastWeek]);
 

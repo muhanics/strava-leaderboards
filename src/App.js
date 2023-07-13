@@ -1,6 +1,6 @@
 import './App.css';
 import axios from 'axios';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import config from './config';
 
 function App() {
@@ -12,8 +12,9 @@ function App() {
   const code = urlParams.get('code');
 
   const getClubActivities = async (authToken) => {
-    const response = await axios.get(`${api_url}clubs/${club_id}/activities?per_page=200`, {headers: {Authorization: 'Bearer ' + authToken}})
+    const response = await axios.get(`${api_url}/clubs/${club_id}/activities?per_page=200`, {headers: {Authorization: 'Bearer ' + authToken}})
     if(response.status === 200) setActivities(response.data);
+    console.log("res data", response.data);
   }
 
   const exchangeToken = async () => {
@@ -23,8 +24,7 @@ function App() {
 
   if(code) exchangeToken();
 
-
-  console.log("activitiesdasddsa", activities)
+  useEffect(()=>{ console.log("activitiesdasddsa", activities) }, [activities]);
 
   const authorize = () => {
     const url = `https://www.strava.com/oauth/authorize?client_id=${client_id}&response_type=code&redirect_uri=${config.app_url}&approval_prompt=auto&scope=read`;

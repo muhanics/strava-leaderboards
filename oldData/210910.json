@@ -1,0 +1,2671 @@
+{
+    "week": 11,
+    "date": "10.09.21",
+    "data": [{
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Cristian",
+            "lastname": "V."
+        },
+        "name": "Morning Walk",
+        "distance": 2453.1,
+        "moving_time": 1630,
+        "elapsed_time": 1924,
+        "total_elevation_gain": 46.2,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "Strong Puzzle",
+        "distance": 0.0,
+        "moving_time": 2576,
+        "elapsed_time": 2576,
+        "total_elevation_gain": 0,
+        "type": "Workout"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "2021 Run #193",
+        "distance": 5061.6,
+        "moving_time": 1625,
+        "elapsed_time": 1642,
+        "total_elevation_gain": 3.1,
+        "type": "Run",
+        "workout_type": 0
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Walk",
+        "distance": 516.7,
+        "moving_time": 381,
+        "elapsed_time": 381,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "Strength Flow",
+        "distance": 0.0,
+        "moving_time": 3086,
+        "elapsed_time": 3086,
+        "total_elevation_gain": 0,
+        "type": "WeightTraining"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Activity",
+        "distance": 0.0,
+        "moving_time": 4468,
+        "elapsed_time": 4468,
+        "total_elevation_gain": 0,
+        "type": "WeightTraining"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Walk",
+        "distance": 508.2,
+        "moving_time": 380,
+        "elapsed_time": 380,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "2021 Run #192",
+        "distance": 5701.7,
+        "moving_time": 1833,
+        "elapsed_time": 1833,
+        "total_elevation_gain": 3.1,
+        "type": "Run",
+        "workout_type": 0
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Walk",
+        "distance": 787.8,
+        "moving_time": 808,
+        "elapsed_time": 875,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "2021 Swim #10",
+        "distance": 1300.0,
+        "moving_time": 2138,
+        "elapsed_time": 2138,
+        "total_elevation_gain": 0,
+        "type": "Swim"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Evening Walk",
+        "distance": 553.2,
+        "moving_time": 562,
+        "elapsed_time": 599,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Activity",
+        "distance": 0.0,
+        "moving_time": 1431,
+        "elapsed_time": 1431,
+        "total_elevation_gain": 0,
+        "type": "Workout"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Gabriel",
+            "lastname": "A."
+        },
+        "name": "Morning Run",
+        "distance": 3173.4,
+        "moving_time": 1206,
+        "elapsed_time": 2653,
+        "total_elevation_gain": 2.1,
+        "type": "Run",
+        "workout_type": 0
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "2021 Run #191",
+        "distance": 5890.0,
+        "moving_time": 1812,
+        "elapsed_time": 1812,
+        "total_elevation_gain": 3.1,
+        "type": "Run",
+        "workout_type": 0
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Walk",
+        "distance": 960.3,
+        "moving_time": 1033,
+        "elapsed_time": 1055,
+        "total_elevation_gain": 2.3,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Night Walk",
+        "distance": 475.3,
+        "moving_time": 461,
+        "elapsed_time": 655,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "Lucky 7 EMOM 49",
+        "distance": 0.0,
+        "moving_time": 3396,
+        "elapsed_time": 3396,
+        "total_elevation_gain": 0,
+        "type": "Crossfit"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Walk",
+        "distance": 566.4,
+        "moving_time": 418,
+        "elapsed_time": 418,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "54 Card Strong",
+        "distance": 0.0,
+        "moving_time": 3015,
+        "elapsed_time": 3015,
+        "total_elevation_gain": 0,
+        "type": "Crossfit"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Activity",
+        "distance": 0.0,
+        "moving_time": 3056,
+        "elapsed_time": 3056,
+        "total_elevation_gain": 0,
+        "type": "WeightTraining"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Walk",
+        "distance": 489.1,
+        "moving_time": 378,
+        "elapsed_time": 378,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "2021 Run #190",
+        "distance": 5904.3,
+        "moving_time": 1824,
+        "elapsed_time": 1842,
+        "total_elevation_gain": 3.0,
+        "type": "Run",
+        "workout_type": 0
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Walk",
+        "distance": 778.3,
+        "moving_time": 739,
+        "elapsed_time": 816,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Night Walk",
+        "distance": 480.2,
+        "moving_time": 451,
+        "elapsed_time": 700,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "4x4x4 LEAN",
+        "distance": 0.0,
+        "moving_time": 3821,
+        "elapsed_time": 3821,
+        "total_elevation_gain": 0,
+        "type": "Crossfit"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Walk",
+        "distance": 500.0,
+        "moving_time": 373,
+        "elapsed_time": 373,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "Lean Flow",
+        "distance": 0.0,
+        "moving_time": 2581,
+        "elapsed_time": 2581,
+        "total_elevation_gain": 0,
+        "type": "Workout"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Activity",
+        "distance": 0.0,
+        "moving_time": 3993,
+        "elapsed_time": 3993,
+        "total_elevation_gain": 0,
+        "type": "WeightTraining"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Walk",
+        "distance": 492.8,
+        "moving_time": 357,
+        "elapsed_time": 357,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "2021 Run #189",
+        "distance": 5625.7,
+        "moving_time": 1828,
+        "elapsed_time": 1828,
+        "total_elevation_gain": 3.1,
+        "type": "Run",
+        "workout_type": 0
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Walk",
+        "distance": 882.4,
+        "moving_time": 816,
+        "elapsed_time": 989,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Alexandru",
+            "lastname": "S."
+        },
+        "name": "Night Ride",
+        "distance": 6432.3,
+        "moving_time": 1807,
+        "elapsed_time": 2421,
+        "total_elevation_gain": 8.9,
+        "type": "Ride",
+        "workout_type": 10
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "F",
+            "lastname": "D."
+        },
+        "name": "Sortie à vélo le soir",
+        "distance": 27451.6,
+        "moving_time": 3990,
+        "elapsed_time": 5679,
+        "total_elevation_gain": 106.0,
+        "type": "Ride",
+        "workout_type": null
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Alexandru",
+            "lastname": "S."
+        },
+        "name": "Evening Ride",
+        "distance": 6446.1,
+        "moving_time": 1797,
+        "elapsed_time": 2653,
+        "total_elevation_gain": 18.1,
+        "type": "Ride",
+        "workout_type": 10
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Gabriel",
+            "lastname": "A."
+        },
+        "name": "Bucium downhill run",
+        "distance": 11570.0,
+        "moving_time": 4273,
+        "elapsed_time": 5103,
+        "total_elevation_gain": 17.3,
+        "type": "Run",
+        "workout_type": 0
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Fish",
+            "lastname": "S."
+        },
+        "name": "Lunch Walk",
+        "distance": 2518.6,
+        "moving_time": 1741,
+        "elapsed_time": 1756,
+        "total_elevation_gain": 2.4,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "2021 Run #188",
+        "distance": 11266.6,
+        "moving_time": 3620,
+        "elapsed_time": 3869,
+        "total_elevation_gain": 9.2,
+        "type": "Run",
+        "workout_type": 0
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Walk",
+        "distance": 913.6,
+        "moving_time": 965,
+        "elapsed_time": 990,
+        "total_elevation_gain": 2.5,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Night Walk",
+        "distance": 482.9,
+        "moving_time": 460,
+        "elapsed_time": 670,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Alexandru",
+            "lastname": "S."
+        },
+        "name": "Evening Ride",
+        "distance": 6411.7,
+        "moving_time": 1832,
+        "elapsed_time": 2188,
+        "total_elevation_gain": 5.3,
+        "type": "Ride",
+        "workout_type": 10
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Cristian",
+            "lastname": "V."
+        },
+        "name": "Evening Walk",
+        "distance": 3995.9,
+        "moving_time": 2772,
+        "elapsed_time": 2772,
+        "total_elevation_gain": 71.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Alexandru",
+            "lastname": "S."
+        },
+        "name": "Evening Ride",
+        "distance": 3904.8,
+        "moving_time": 990,
+        "elapsed_time": 1635,
+        "total_elevation_gain": 5.1,
+        "type": "Ride",
+        "workout_type": 10
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Fish",
+            "lastname": "S."
+        },
+        "name": "Afternoon Walk",
+        "distance": 249.4,
+        "moving_time": 101,
+        "elapsed_time": 192,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "2021 Run #187",
+        "distance": 11025.9,
+        "moving_time": 3317,
+        "elapsed_time": 3673,
+        "total_elevation_gain": 13.5,
+        "type": "Run",
+        "workout_type": 0
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Fish",
+            "lastname": "S."
+        },
+        "name": "Morning Walk",
+        "distance": 529.9,
+        "moving_time": 381,
+        "elapsed_time": 547,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Sam",
+            "lastname": "B."
+        },
+        "name": "Back and bicep 💪😵‍💫",
+        "distance": 0.0,
+        "moving_time": 3600,
+        "elapsed_time": 3600,
+        "total_elevation_gain": 0,
+        "type": "WeightTraining"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Activity",
+        "distance": 0.0,
+        "moving_time": 1833,
+        "elapsed_time": 1833,
+        "total_elevation_gain": 0,
+        "type": "Workout"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Walk",
+        "distance": 962.1,
+        "moving_time": 940,
+        "elapsed_time": 1046,
+        "total_elevation_gain": 2.2,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "F",
+            "lastname": "D."
+        },
+        "name": "Natation le soir",
+        "distance": 1600.0,
+        "moving_time": 3000,
+        "elapsed_time": 3000,
+        "total_elevation_gain": 0,
+        "type": "Swim"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Evening Walk",
+        "distance": 408.5,
+        "moving_time": 399,
+        "elapsed_time": 429,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "Mobility",
+        "distance": 0.0,
+        "moving_time": 2021,
+        "elapsed_time": 2021,
+        "total_elevation_gain": 0,
+        "type": "Yoga"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Lunch Walk",
+        "distance": 531.6,
+        "moving_time": 395,
+        "elapsed_time": 395,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Activity",
+        "distance": 0.0,
+        "moving_time": 3399,
+        "elapsed_time": 3399,
+        "total_elevation_gain": 0,
+        "type": "WeightTraining"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Gabriel",
+            "lastname": "A."
+        },
+        "name": "Morning Activity",
+        "distance": 0.0,
+        "moving_time": 649,
+        "elapsed_time": 649,
+        "total_elevation_gain": 0,
+        "type": "Workout"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Walk",
+        "distance": 573.8,
+        "moving_time": 440,
+        "elapsed_time": 440,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "Performance Flow",
+        "distance": 0.0,
+        "moving_time": 2186,
+        "elapsed_time": 2186,
+        "total_elevation_gain": 0,
+        "type": "WeightTraining"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Gabriel",
+            "lastname": "A."
+        },
+        "name": "Morning Run",
+        "distance": 3305.3,
+        "moving_time": 1297,
+        "elapsed_time": 2666,
+        "total_elevation_gain": 2.1,
+        "type": "Run",
+        "workout_type": 0
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Cristian",
+            "lastname": "V."
+        },
+        "name": "Morning Run",
+        "distance": 4279.9,
+        "moving_time": 1502,
+        "elapsed_time": 3516,
+        "total_elevation_gain": 2.5,
+        "type": "Run",
+        "workout_type": null
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Walk",
+        "distance": 927.5,
+        "moving_time": 882,
+        "elapsed_time": 939,
+        "total_elevation_gain": 2.5,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Alexandru",
+            "lastname": "S."
+        },
+        "name": "Night Ride",
+        "distance": 11267.7,
+        "moving_time": 3468,
+        "elapsed_time": 4226,
+        "total_elevation_gain": 26.0,
+        "type": "Ride",
+        "workout_type": 10
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Night Walk",
+        "distance": 184.2,
+        "moving_time": 250,
+        "elapsed_time": 377,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "F",
+            "lastname": "D."
+        },
+        "name": "Interval training ",
+        "distance": 7000.0,
+        "moving_time": 2400,
+        "elapsed_time": 2400,
+        "total_elevation_gain": 0,
+        "type": "Run",
+        "workout_type": null
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Evening Activity",
+        "distance": 0.0,
+        "moving_time": 1645,
+        "elapsed_time": 1645,
+        "total_elevation_gain": 0,
+        "type": "Workout"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "HIIB Hybrid ",
+        "distance": 0.0,
+        "moving_time": 2690,
+        "elapsed_time": 2690,
+        "total_elevation_gain": 0,
+        "type": "Workout"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Fish",
+            "lastname": "S."
+        },
+        "name": "Evening Walk",
+        "distance": 392.7,
+        "moving_time": 247,
+        "elapsed_time": 269,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Cristian",
+            "lastname": "V."
+        },
+        "name": "Afternoon Walk",
+        "distance": 15641.4,
+        "moving_time": 10232,
+        "elapsed_time": 16323,
+        "total_elevation_gain": 204.9,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Lunch Walk",
+        "distance": 518.9,
+        "moving_time": 401,
+        "elapsed_time": 436,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Activity",
+        "distance": 0.0,
+        "moving_time": 4607,
+        "elapsed_time": 4607,
+        "total_elevation_gain": 0,
+        "type": "WeightTraining"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "Load and Own",
+        "distance": 0.0,
+        "moving_time": 2368,
+        "elapsed_time": 2368,
+        "total_elevation_gain": 0,
+        "type": "WeightTraining"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Walk",
+        "distance": 433.2,
+        "moving_time": 297,
+        "elapsed_time": 297,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Gabriel",
+            "lastname": "A."
+        },
+        "name": "Morning Run",
+        "distance": 4779.3,
+        "moving_time": 1997,
+        "elapsed_time": 2454,
+        "total_elevation_gain": 4.7,
+        "type": "Run",
+        "workout_type": 0
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "2021 Run #186",
+        "distance": 6002.5,
+        "moving_time": 1818,
+        "elapsed_time": 1952,
+        "total_elevation_gain": 3.1,
+        "type": "Run",
+        "workout_type": 0
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Night Walk",
+        "distance": 432.0,
+        "moving_time": 422,
+        "elapsed_time": 452,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "2021 Swim #9",
+        "distance": 1300.0,
+        "moving_time": 2023,
+        "elapsed_time": 2023,
+        "total_elevation_gain": 0,
+        "type": "Swim"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Marina",
+            "lastname": "C."
+        },
+        "name": "Evening Run",
+        "distance": 10001.7,
+        "moving_time": 3739,
+        "elapsed_time": 3746,
+        "total_elevation_gain": 7.0,
+        "type": "Run",
+        "workout_type": 0
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Gabriel",
+            "lastname": "A."
+        },
+        "name": "Afternoon Walk",
+        "distance": 7166.9,
+        "moving_time": 5652,
+        "elapsed_time": 9198,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Lunch Activity",
+        "distance": 0.0,
+        "moving_time": 1449,
+        "elapsed_time": 1449,
+        "total_elevation_gain": 0,
+        "type": "Workout"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "HIIT IT \u0026 QUIT IT",
+        "distance": 0.0,
+        "moving_time": 1977,
+        "elapsed_time": 1977,
+        "total_elevation_gain": 0,
+        "type": "Crossfit"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Walk",
+        "distance": 793.9,
+        "moving_time": 713,
+        "elapsed_time": 713,
+        "total_elevation_gain": 4.9,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "2021 Run #185",
+        "distance": 8082.4,
+        "moving_time": 2723,
+        "elapsed_time": 2806,
+        "total_elevation_gain": 7.0,
+        "type": "Run",
+        "workout_type": 0
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Alexandru",
+            "lastname": "S."
+        },
+        "name": "Night Ride",
+        "distance": 6794.1,
+        "moving_time": 2122,
+        "elapsed_time": 3154,
+        "total_elevation_gain": 7.3,
+        "type": "Ride",
+        "workout_type": 10
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Night Walk",
+        "distance": 459.6,
+        "moving_time": 447,
+        "elapsed_time": 551,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "F",
+            "lastname": "D."
+        },
+        "name": "Natation le soir",
+        "distance": 1950.0,
+        "moving_time": 3600,
+        "elapsed_time": 3600,
+        "total_elevation_gain": 0,
+        "type": "Swim"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "2021 Run #184",
+        "distance": 8830.2,
+        "moving_time": 2581,
+        "elapsed_time": 2966,
+        "total_elevation_gain": 7.9,
+        "type": "Run",
+        "workout_type": 0
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Sam",
+            "lastname": "B."
+        },
+        "name": "Shoulders \u0026 tri’s 💪",
+        "distance": 0.0,
+        "moving_time": 3600,
+        "elapsed_time": 3600,
+        "total_elevation_gain": 0,
+        "type": "WeightTraining"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Fish",
+            "lastname": "S."
+        },
+        "name": "Lunch Activity",
+        "distance": 0.0,
+        "moving_time": 2380,
+        "elapsed_time": 2380,
+        "total_elevation_gain": 0,
+        "type": "Workout"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Lunch Walk",
+        "distance": 551.5,
+        "moving_time": 458,
+        "elapsed_time": 458,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Gabriel",
+            "lastname": "A."
+        },
+        "name": "Morning Run",
+        "distance": 5149.7,
+        "moving_time": 1839,
+        "elapsed_time": 2175,
+        "total_elevation_gain": 0.0,
+        "type": "Run",
+        "workout_type": 0
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Activity",
+        "distance": 0.0,
+        "moving_time": 3869,
+        "elapsed_time": 3869,
+        "total_elevation_gain": 0,
+        "type": "WeightTraining"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Walk",
+        "distance": 534.2,
+        "moving_time": 363,
+        "elapsed_time": 363,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "BURN",
+        "distance": 0.0,
+        "moving_time": 2585,
+        "elapsed_time": 2585,
+        "total_elevation_gain": 0,
+        "type": "WeightTraining"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "2021 Run #183",
+        "distance": 5796.4,
+        "moving_time": 1849,
+        "elapsed_time": 1868,
+        "total_elevation_gain": 3.1,
+        "type": "Run",
+        "workout_type": 0
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Walk",
+        "distance": 764.0,
+        "moving_time": 687,
+        "elapsed_time": 754,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Evening Walk",
+        "distance": 419.9,
+        "moving_time": 423,
+        "elapsed_time": 442,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Cristian",
+            "lastname": "V."
+        },
+        "name": "Evening Walk",
+        "distance": 2886.7,
+        "moving_time": 1840,
+        "elapsed_time": 2204,
+        "total_elevation_gain": 6.7,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Fish",
+            "lastname": "S."
+        },
+        "name": "Lunch Activity",
+        "distance": 0.0,
+        "moving_time": 3180,
+        "elapsed_time": 3180,
+        "total_elevation_gain": 0,
+        "type": "Yoga"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Lunch Walk",
+        "distance": 496.0,
+        "moving_time": 352,
+        "elapsed_time": 352,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "Strong EMOM",
+        "distance": 0.0,
+        "moving_time": 3267,
+        "elapsed_time": 3267,
+        "total_elevation_gain": 0,
+        "type": "Crossfit"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Activity",
+        "distance": 0.0,
+        "moving_time": 4650,
+        "elapsed_time": 4650,
+        "total_elevation_gain": 0,
+        "type": "WeightTraining"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Walk",
+        "distance": 485.5,
+        "moving_time": 339,
+        "elapsed_time": 339,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Muhan",
+            "lastname": "A."
+        },
+        "name": "Pedal Boat Race",
+        "distance": 0.0,
+        "moving_time": 900,
+        "elapsed_time": 900,
+        "total_elevation_gain": 0,
+        "type": "Ride",
+        "workout_type": 11
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "L",
+            "lastname": "C."
+        },
+        "name": "Château de Chalucet",
+        "distance": 2052.5,
+        "moving_time": 2313,
+        "elapsed_time": 3853,
+        "total_elevation_gain": 91.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Gabriel",
+            "lastname": "A."
+        },
+        "name": "Afternoon Walk",
+        "distance": 1522.4,
+        "moving_time": 1102,
+        "elapsed_time": 1162,
+        "total_elevation_gain": 36.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "2021 Run #182",
+        "distance": 23093.3,
+        "moving_time": 7277,
+        "elapsed_time": 8176,
+        "total_elevation_gain": 35.1,
+        "type": "Run",
+        "workout_type": 0
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Gabriel",
+            "lastname": "A."
+        },
+        "name": "Rain run",
+        "distance": 6653.2,
+        "moving_time": 2880,
+        "elapsed_time": 3210,
+        "total_elevation_gain": 7.5,
+        "type": "Run",
+        "workout_type": 0
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Lunch Activity",
+        "distance": 0.0,
+        "moving_time": 1203,
+        "elapsed_time": 1203,
+        "total_elevation_gain": 0,
+        "type": "WeightTraining"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "F",
+            "lastname": "D."
+        },
+        "name": "Course à pied matinale",
+        "distance": 17573.4,
+        "moving_time": 7110,
+        "elapsed_time": 7754,
+        "total_elevation_gain": 208.9,
+        "type": "Run",
+        "workout_type": null
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Activity",
+        "distance": 0.0,
+        "moving_time": 1558,
+        "elapsed_time": 1558,
+        "total_elevation_gain": 0,
+        "type": "Workout"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Alexandru",
+            "lastname": "S."
+        },
+        "name": "Morning Ride",
+        "distance": 3120.8,
+        "moving_time": 1382,
+        "elapsed_time": 2478,
+        "total_elevation_gain": 13.4,
+        "type": "Ride",
+        "workout_type": 10
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Walk",
+        "distance": 813.5,
+        "moving_time": 847,
+        "elapsed_time": 895,
+        "total_elevation_gain": 2.2,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Muhan",
+            "lastname": "A."
+        },
+        "name": "Richmond Park Walk",
+        "distance": 0.0,
+        "moving_time": 3600,
+        "elapsed_time": 3600,
+        "total_elevation_gain": 0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Evening Walk",
+        "distance": 481.1,
+        "moving_time": 448,
+        "elapsed_time": 567,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "L",
+            "lastname": "C."
+        },
+        "name": "Saint-Cirq-Lapopie",
+        "distance": 1452.5,
+        "moving_time": 1773,
+        "elapsed_time": 4540,
+        "total_elevation_gain": 159.1,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Gabriel",
+            "lastname": "A."
+        },
+        "name": "Afternoon Run",
+        "distance": 5121.6,
+        "moving_time": 1956,
+        "elapsed_time": 2994,
+        "total_elevation_gain": 0.0,
+        "type": "Run",
+        "workout_type": 0
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "Mobility ",
+        "distance": 0.0,
+        "moving_time": 2335,
+        "elapsed_time": 2335,
+        "total_elevation_gain": 0,
+        "type": "Yoga"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "L",
+            "lastname": "C."
+        },
+        "name": "Sentier des Anglais",
+        "distance": 5808.3,
+        "moving_time": 5680,
+        "elapsed_time": 8721,
+        "total_elevation_gain": 187.5,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "2021 Run #181",
+        "distance": 6155.0,
+        "moving_time": 1825,
+        "elapsed_time": 2150,
+        "total_elevation_gain": 3.2,
+        "type": "Run",
+        "workout_type": 0
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Lunch Activity",
+        "distance": 0.0,
+        "moving_time": 640,
+        "elapsed_time": 640,
+        "total_elevation_gain": 0,
+        "type": "WeightTraining"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Lunch Activity",
+        "distance": 0.0,
+        "moving_time": 1158,
+        "elapsed_time": 1158,
+        "total_elevation_gain": 0,
+        "type": "Workout"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Walk",
+        "distance": 862.4,
+        "moving_time": 879,
+        "elapsed_time": 984,
+        "total_elevation_gain": 2.4,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Alexandru",
+            "lastname": "S."
+        },
+        "name": "Night Ride",
+        "distance": 7487.4,
+        "moving_time": 1618,
+        "elapsed_time": 1890,
+        "total_elevation_gain": 9.1,
+        "type": "Ride",
+        "workout_type": 10
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Alexandru",
+            "lastname": "S."
+        },
+        "name": "Night Ride",
+        "distance": 7889.4,
+        "moving_time": 1780,
+        "elapsed_time": 2136,
+        "total_elevation_gain": 16.4,
+        "type": "Ride",
+        "workout_type": 10
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Night Walk",
+        "distance": 598.3,
+        "moving_time": 635,
+        "elapsed_time": 762,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "F",
+            "lastname": "D."
+        },
+        "name": "Course à pied le soir",
+        "distance": 3278.5,
+        "moving_time": 1476,
+        "elapsed_time": 1929,
+        "total_elevation_gain": 81.1,
+        "type": "Run",
+        "workout_type": null
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "F",
+            "lastname": "D."
+        },
+        "name": "Piscine Émile Anthoine",
+        "distance": 1700.0,
+        "moving_time": 2880,
+        "elapsed_time": 2880,
+        "total_elevation_gain": 0,
+        "type": "Swim"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "R",
+            "lastname": "C."
+        },
+        "name": "Lunch Run",
+        "distance": 899.0,
+        "moving_time": 485,
+        "elapsed_time": 1034,
+        "total_elevation_gain": 15.1,
+        "type": "Run",
+        "workout_type": null
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Activity",
+        "distance": 0.0,
+        "moving_time": 1339,
+        "elapsed_time": 1339,
+        "total_elevation_gain": 0,
+        "type": "Workout"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "Strong \u0026 Mobile",
+        "distance": 0.0,
+        "moving_time": 2631,
+        "elapsed_time": 2631,
+        "total_elevation_gain": 0,
+        "type": "Workout"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Walk",
+        "distance": 977.0,
+        "moving_time": 919,
+        "elapsed_time": 1044,
+        "total_elevation_gain": 2.4,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Tim",
+            "lastname": "S."
+        },
+        "name": "2021-08-27",
+        "distance": 0.0,
+        "moving_time": 18000,
+        "elapsed_time": 18000,
+        "total_elevation_gain": 0,
+        "type": "Crossfit"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Muhan",
+            "lastname": "A."
+        },
+        "name": "Boxing",
+        "distance": 0.0,
+        "moving_time": 6287,
+        "elapsed_time": 6287,
+        "total_elevation_gain": 0,
+        "type": "Workout"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Night Walk",
+        "distance": 382.7,
+        "moving_time": 452,
+        "elapsed_time": 452,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "L",
+            "lastname": "C."
+        },
+        "name": "Dune du Pilat - West Face",
+        "distance": 1527.8,
+        "moving_time": 1777,
+        "elapsed_time": 4782,
+        "total_elevation_gain": 100.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Ed",
+            "lastname": "S."
+        },
+        "name": "Evening Swim",
+        "distance": 0.0,
+        "moving_time": 1800,
+        "elapsed_time": 1800,
+        "total_elevation_gain": 0,
+        "type": "Swim"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Cristian",
+            "lastname": "V."
+        },
+        "name": "Afternoon Walk",
+        "distance": 5114.7,
+        "moving_time": 3450,
+        "elapsed_time": 4168,
+        "total_elevation_gain": 63.2,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "2021 Run #180",
+        "distance": 8827.7,
+        "moving_time": 2725,
+        "elapsed_time": 3134,
+        "total_elevation_gain": 7.2,
+        "type": "Run",
+        "workout_type": 0
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "L",
+            "lastname": "C."
+        },
+        "name": "Courant d’Huchet",
+        "distance": 6274.5,
+        "moving_time": 6360,
+        "elapsed_time": 9074,
+        "total_elevation_gain": 17.3,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "Core Flow",
+        "distance": 0.0,
+        "moving_time": 2697,
+        "elapsed_time": 2697,
+        "total_elevation_gain": 0,
+        "type": "Workout"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Activity",
+        "distance": 0.0,
+        "moving_time": 4239,
+        "elapsed_time": 4239,
+        "total_elevation_gain": 0,
+        "type": "WeightTraining"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Walk",
+        "distance": 535.3,
+        "moving_time": 347,
+        "elapsed_time": 347,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "2021 Run #179",
+        "distance": 5697.8,
+        "moving_time": 1918,
+        "elapsed_time": 1928,
+        "total_elevation_gain": 3.1,
+        "type": "Run",
+        "workout_type": 0
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Walk",
+        "distance": 886.0,
+        "moving_time": 837,
+        "elapsed_time": 1000,
+        "total_elevation_gain": 2.6,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Night Walk",
+        "distance": 821.4,
+        "moving_time": 809,
+        "elapsed_time": 824,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "2021 Swim #8",
+        "distance": 1300.0,
+        "moving_time": 2145,
+        "elapsed_time": 2145,
+        "total_elevation_gain": 0,
+        "type": "Swim"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Fish",
+            "lastname": "S."
+        },
+        "name": "Afternoon Walk",
+        "distance": 1303.2,
+        "moving_time": 916,
+        "elapsed_time": 916,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Afternoon Walk",
+        "distance": 482.2,
+        "moving_time": 374,
+        "elapsed_time": 1568,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Walk",
+        "distance": 512.6,
+        "moving_time": 361,
+        "elapsed_time": 361,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "Functional Build",
+        "distance": 0.0,
+        "moving_time": 2420,
+        "elapsed_time": 2420,
+        "total_elevation_gain": 0,
+        "type": "WeightTraining"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Activity",
+        "distance": 0.0,
+        "moving_time": 2948,
+        "elapsed_time": 2948,
+        "total_elevation_gain": 0,
+        "type": "WeightTraining"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Walk",
+        "distance": 515.9,
+        "moving_time": 349,
+        "elapsed_time": 349,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Walk",
+        "distance": 495.8,
+        "moving_time": 322,
+        "elapsed_time": 322,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Walk",
+        "distance": 513.0,
+        "moving_time": 360,
+        "elapsed_time": 360,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "2021 Run #178",
+        "distance": 11203.7,
+        "moving_time": 3629,
+        "elapsed_time": 3890,
+        "total_elevation_gain": 12.9,
+        "type": "Run",
+        "workout_type": 0
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Walk",
+        "distance": 919.0,
+        "moving_time": 823,
+        "elapsed_time": 885,
+        "total_elevation_gain": 2.4,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Night Walk",
+        "distance": 398.9,
+        "moving_time": 454,
+        "elapsed_time": 541,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "2021 Run #177",
+        "distance": 9322.6,
+        "moving_time": 2721,
+        "elapsed_time": 3056,
+        "total_elevation_gain": 5.6,
+        "type": "Run",
+        "workout_type": 0
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "F",
+            "lastname": "D."
+        },
+        "name": "Course à pied le soir",
+        "distance": 6746.0,
+        "moving_time": 2561,
+        "elapsed_time": 3072,
+        "total_elevation_gain": 59.0,
+        "type": "Run",
+        "workout_type": null
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "R",
+            "lastname": "C."
+        },
+        "name": "Afternoon Run",
+        "distance": 495.8,
+        "moving_time": 176,
+        "elapsed_time": 181,
+        "total_elevation_gain": 0.0,
+        "type": "Run",
+        "workout_type": null
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "R",
+            "lastname": "C."
+        },
+        "name": "Afternoon Run",
+        "distance": 4663.3,
+        "moving_time": 1586,
+        "elapsed_time": 1693,
+        "total_elevation_gain": 34.0,
+        "type": "Run",
+        "workout_type": null
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Gabriel",
+            "lastname": "A."
+        },
+        "name": "Afternoon Walk",
+        "distance": 1775.6,
+        "moving_time": 956,
+        "elapsed_time": 1061,
+        "total_elevation_gain": 40.1,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Fish",
+            "lastname": "S."
+        },
+        "name": "Lunch Activity",
+        "distance": 0.0,
+        "moving_time": 2470,
+        "elapsed_time": 2470,
+        "total_elevation_gain": 0,
+        "type": "Workout"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Walk",
+        "distance": 473.0,
+        "moving_time": 335,
+        "elapsed_time": 335,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "EMOM 36",
+        "distance": 0.0,
+        "moving_time": 2840,
+        "elapsed_time": 2840,
+        "total_elevation_gain": 0,
+        "type": "Crossfit"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Activity",
+        "distance": 0.0,
+        "moving_time": 4039,
+        "elapsed_time": 4039,
+        "total_elevation_gain": 0,
+        "type": "WeightTraining"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Walk",
+        "distance": 472.1,
+        "moving_time": 340,
+        "elapsed_time": 340,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "2021 Run #176",
+        "distance": 5894.0,
+        "moving_time": 1904,
+        "elapsed_time": 1904,
+        "total_elevation_gain": 3.1,
+        "type": "Run",
+        "workout_type": 0
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Walk",
+        "distance": 521.7,
+        "moving_time": 473,
+        "elapsed_time": 517,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Muhan",
+            "lastname": "A."
+        },
+        "name": "Boxing",
+        "distance": 0.0,
+        "moving_time": 6563,
+        "elapsed_time": 6563,
+        "total_elevation_gain": 0,
+        "type": "Workout"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "F",
+            "lastname": "D."
+        },
+        "name": "Sortie à vélo le soir",
+        "distance": 4168.0,
+        "moving_time": 595,
+        "elapsed_time": 765,
+        "total_elevation_gain": 2.4,
+        "type": "Ride",
+        "workout_type": null
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "Perform Doubles",
+        "distance": 0.0,
+        "moving_time": 3286,
+        "elapsed_time": 3286,
+        "total_elevation_gain": 0,
+        "type": "Crossfit"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Night Walk",
+        "distance": 376.7,
+        "moving_time": 483,
+        "elapsed_time": 517,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "F",
+            "lastname": "D."
+        },
+        "name": "Sortie à vélo le soir",
+        "distance": 8815.2,
+        "moving_time": 1415,
+        "elapsed_time": 1415,
+        "total_elevation_gain": 68.9,
+        "type": "Ride",
+        "workout_type": null
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Ed",
+            "lastname": "S."
+        },
+        "name": "Morning Run",
+        "distance": 2729.6,
+        "moving_time": 966,
+        "elapsed_time": 981,
+        "total_elevation_gain": 0.0,
+        "type": "Run",
+        "workout_type": 0
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Lunch Walk",
+        "distance": 497.6,
+        "moving_time": 347,
+        "elapsed_time": 347,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Alexandru",
+            "lastname": "S."
+        },
+        "name": "Morning Ride",
+        "distance": 7559.8,
+        "moving_time": 3045,
+        "elapsed_time": 3364,
+        "total_elevation_gain": 8.9,
+        "type": "Ride",
+        "workout_type": 10
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Activity",
+        "distance": 0.0,
+        "moving_time": 4146,
+        "elapsed_time": 4146,
+        "total_elevation_gain": 0,
+        "type": "WeightTraining"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "4x4x4 Progressive Overload",
+        "distance": 0.0,
+        "moving_time": 3866,
+        "elapsed_time": 3866,
+        "total_elevation_gain": 0,
+        "type": "Crossfit"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Walk",
+        "distance": 542.1,
+        "moving_time": 429,
+        "elapsed_time": 429,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Walk",
+        "distance": 977.5,
+        "moving_time": 968,
+        "elapsed_time": 1063,
+        "total_elevation_gain": 2.3,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Alexandru",
+            "lastname": "S."
+        },
+        "name": "Night Ride",
+        "distance": 6113.1,
+        "moving_time": 1289,
+        "elapsed_time": 1625,
+        "total_elevation_gain": 16.5,
+        "type": "Ride",
+        "workout_type": 10
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Marina",
+            "lastname": "C."
+        },
+        "name": "First 10km in months 😮‍💨",
+        "distance": 10148.6,
+        "moving_time": 3674,
+        "elapsed_time": 3674,
+        "total_elevation_gain": 13.8,
+        "type": "Run",
+        "workout_type": 0
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "L",
+            "lastname": "C."
+        },
+        "name": "MTB with Big A",
+        "distance": 11005.6,
+        "moving_time": 2729,
+        "elapsed_time": 3302,
+        "total_elevation_gain": 158.7,
+        "type": "Ride",
+        "workout_type": 10
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Gabriel",
+            "lastname": "A."
+        },
+        "name": "Afternoon Walk",
+        "distance": 3435.7,
+        "moving_time": 2735,
+        "elapsed_time": 2892,
+        "total_elevation_gain": 55.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Catalin",
+            "lastname": "C."
+        },
+        "name": "Weekend Walk 22.08.2021",
+        "distance": 0.0,
+        "moving_time": 10800,
+        "elapsed_time": 10800,
+        "total_elevation_gain": 0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "2021 Run #175",
+        "distance": 21370.3,
+        "moving_time": 6441,
+        "elapsed_time": 6441,
+        "total_elevation_gain": 66.9,
+        "type": "Run",
+        "workout_type": 1
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Walk",
+        "distance": 758.6,
+        "moving_time": 719,
+        "elapsed_time": 815,
+        "total_elevation_gain": 4.9,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Night Walk",
+        "distance": 394.4,
+        "moving_time": 430,
+        "elapsed_time": 430,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "Mobility",
+        "distance": 0.0,
+        "moving_time": 2655,
+        "elapsed_time": 2655,
+        "total_elevation_gain": 0,
+        "type": "Yoga"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Gabriel",
+            "lastname": "A."
+        },
+        "name": "Lunch Run",
+        "distance": 5718.8,
+        "moving_time": 2644,
+        "elapsed_time": 3957,
+        "total_elevation_gain": 5.0,
+        "type": "Run",
+        "workout_type": 0
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Sam",
+            "lastname": "B."
+        },
+        "name": "Morning arm sesh ",
+        "distance": 0.0,
+        "moving_time": 3600,
+        "elapsed_time": 3600,
+        "total_elevation_gain": 0,
+        "type": "WeightTraining"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "L",
+            "lastname": "C."
+        },
+        "name": "Morning Ride with A",
+        "distance": 2098.1,
+        "moving_time": 753,
+        "elapsed_time": 992,
+        "total_elevation_gain": 55.7,
+        "type": "Ride",
+        "workout_type": 10
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Walk",
+        "distance": 993.6,
+        "moving_time": 1028,
+        "elapsed_time": 1070,
+        "total_elevation_gain": 2.6,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Evening Walk",
+        "distance": 543.6,
+        "moving_time": 541,
+        "elapsed_time": 724,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Fish",
+            "lastname": "S."
+        },
+        "name": "Evening Walk",
+        "distance": 1208.1,
+        "moving_time": 537,
+        "elapsed_time": 1462,
+        "total_elevation_gain": 3.5,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Evening Activity",
+        "distance": 0.0,
+        "moving_time": 1160,
+        "elapsed_time": 1160,
+        "total_elevation_gain": 0,
+        "type": "Workout"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "54 Card Sweat: Bodyweight",
+        "distance": 0.0,
+        "moving_time": 3081,
+        "elapsed_time": 3081,
+        "total_elevation_gain": 0,
+        "type": "Crossfit"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Agnes",
+            "lastname": "C."
+        },
+        "name": "2021 Run #174",
+        "distance": 8193.2,
+        "moving_time": 2720,
+        "elapsed_time": 2906,
+        "total_elevation_gain": 5.4,
+        "type": "Run",
+        "workout_type": 0
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Walk",
+        "distance": 572.0,
+        "moving_time": 435,
+        "elapsed_time": 435,
+        "total_elevation_gain": 0.0,
+        "type": "Walk"
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Gabriel",
+            "lastname": "A."
+        },
+        "name": "Morning Run",
+        "distance": 6302.6,
+        "moving_time": 3226,
+        "elapsed_time": 3234,
+        "total_elevation_gain": 9.7,
+        "type": "Run",
+        "workout_type": 0
+    }, {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Erik",
+            "lastname": "E."
+        },
+        "name": "Morning Activity",
+        "distance": 0.0,
+        "moving_time": 3616,
+        "elapsed_time": 3616,
+        "total_elevation_gain": 0,
+        "type": "WeightTraining"
+    },
+    {
+        "resource_state": 2,
+        "athlete": {
+            "resource_state": 2,
+            "firstname": "Joe",
+            "lastname": "M."
+        },
+        "moving_time": 86894
+    }]
+}
