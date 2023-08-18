@@ -6,6 +6,9 @@ export const processRankings = (activities, athletes) => {
       const { firstname, lastname } = activity.athlete;
       const name = `${firstname}_${lastname}`;
       athletesObj[name].minutes += Math.round(activity.moving_time / 60);
+
+      athletesObj[name].activities = athletesObj[name].activities || [];
+      athletesObj[name].activities.push(activity)
     })
     const sortedAthletes = Object.entries(athletesObj).sort(([,a],[,b]) => b.minutes-a.minutes);
     return sortedAthletes;
@@ -23,7 +26,7 @@ export const processRankings = (activities, athletes) => {
     const noActivity = !hours && !mins;
 
     let time = '';
-    if(noActivity) time = "No actvity";
+    if(noActivity) time = "No activity";
     if(hours > 0) time = `${hours} hrs `;
     if(mins > 0) time += `${mins} mins`;
     return time;

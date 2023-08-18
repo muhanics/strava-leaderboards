@@ -78,6 +78,7 @@ export default function App() {
     const currentRankings = processRankings(currentWeekActivities, athletes);
     const previousRankings = processRankings(lastWeekActivities, athletes);
 
+    console.log("CUrrent rankings", currentRankings);
     return currentRankings.map( ([athleteName, {minutes}], i) => {
       const hours = Math.floor(minutes / 60);
       const mins = minutes % 60;
@@ -94,7 +95,7 @@ export default function App() {
           #{currentRank} {displayName}
         </div>
         <div className="time">
-          {noActivity && "No actvity"}
+          {noActivity && "No activity"}
           {hours > 0 && `${hours} hrs `}
           {mins > 0 && `${mins} mins`}
         </div>
