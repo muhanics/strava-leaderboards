@@ -12,8 +12,8 @@ ReactDOM.render(
     {/* above was WIP not complete - contentful one */}
 
 
-    {/* <App /> */}
-    <Leaderboard/>
+    <App />
+    {/* <Leaderboard/> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -26,6 +26,7 @@ export default function App() {
   }
 
   const findAthletesTeam = ({firstname}) => {
+    console.log("firstName", firstname);
     const team = Object.entries(config.teams).find( ([, members]) => members.includes(firstname));
     if(!team) return "Other";
     return team[0];
@@ -87,8 +88,14 @@ export default function App() {
       const athleteInPreviousData = previousRankings.find(([name]) => athleteName === name);
       const previousRank = previousRankings.indexOf(athleteInPreviousData) + 1;
       const currentRank = i + 1;
+
       const originalName = athleteName.replace(`_`, ' ');
       const displayName = mapName(originalName, config.nameMappings);
+
+      const firstName = originalName.split(' ')[0];
+      const team = findAthletesTeam({firstname: firstName});
+
+      console.log("team", team);
 
       return <div className="rank">
         <div className="athlete">
@@ -99,6 +106,7 @@ export default function App() {
           {hours > 0 && `${hours} hrs `}
           {mins > 0 && `${mins} mins`}
         </div>
+        <div className="team-badge">{team}</div>
         <div className="progress">
           {renderRankChange(currentRank, previousRank)}
         </div>
