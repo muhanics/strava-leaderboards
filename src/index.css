@@ -24,7 +24,16 @@ h1{
 p{
   font-size: 18px;
 }
-
+.menu{
+  margin-bottom: 50px;
+}
+a.menu-item{
+  color: #61dafb;
+  margin-right: 20px;
+  padding: 10px;
+  text-decoration: none;
+  display: inline-block;
+}
 .rank{
   display: block;
   width: 300px;

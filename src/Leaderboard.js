@@ -21,12 +21,10 @@ export default function App() {
       allData.push(activitySet)
     });
     allData.reverse();
-    console.log("allData", allData);
     return allData.filter( (data, i) => i >= startingIndex);
   }
 
   const findAthletesTeam = ({firstname}) => {
-    console.log("firstName", firstname);
     const team = Object.entries(config.teams).find( ([, members]) => members.includes(firstname));
     if(!team) return "Other";
     return team[0];
@@ -45,8 +43,6 @@ export default function App() {
   }
 
   const findNewActivities = (newData, oldData) => {
-    console.log("newData", newData);
-    console.log("oldData", oldData);
     return newData.filter( newActivity => {
       const existsInOldData = oldData.find( oldActivity => {
         return JSON.stringify(newActivity) === JSON.stringify(oldActivity)
@@ -56,7 +52,6 @@ export default function App() {
   }
 
   const concatData = (datasets) => {
-    console.log("datasets", datasets);
     return datasets.map( ({activities}) => activities).flat();
   }
 
@@ -66,8 +61,6 @@ export default function App() {
     const dataBeforeCurrentWeek = concatData(getAllData(1));
     const dataBeforeLastWeek = concatData(getAllData(2));
 
-    console.log("dataBeforeCurrentWeek", dataBeforeCurrentWeek);
-    console.log("dataBeforeLastWeek", dataBeforeLastWeek);
 
     return {
       currentWeek: findNewActivities(currentWeek.activities, dataBeforeCurrentWeek),
@@ -79,7 +72,6 @@ export default function App() {
     const currentRankings = processRankings(currentWeekActivities, athletes);
     const previousRankings = processRankings(lastWeekActivities, athletes);
 
-    console.log("CUrrent rankings", currentRankings);
     return currentRankings.map( ([athleteName, {minutes}], i) => {
       const hours = Math.floor(minutes / 60);
       const mins = minutes % 60;
@@ -95,7 +87,6 @@ export default function App() {
       const firstName = originalName.split(' ')[0];
       const team = findAthletesTeam({firstname: firstName});
 
-      console.log("team", team);
 
       return <div className="rank">
         <div className="athlete">

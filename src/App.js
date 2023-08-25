@@ -5,7 +5,7 @@ import config from './config';
 
 function App() {
 
-  const [ activities, setActivities ] = useState(null);
+  const [ activities, setActivities ] = useState([]);
 
   const { api_url, client_id, client_secret, club_id } = config.strava;
   const urlParams = new URLSearchParams(window.location.search);
@@ -13,8 +13,10 @@ function App() {
 
   const getClubActivities = async (authToken) => {
     const response = await axios.get(`${api_url}/clubs/${club_id}/activities?per_page=200`, {headers: {Authorization: 'Bearer ' + authToken}})
-    if(response.status === 200) setActivities(response.data);
-    console.log("res data", response.data);
+    if(response.data.length) {
+      console.log("Setting activities in state", response.data);
+      setActivities(response.data);
+    }
   }
 
   const exchangeToken = async () => {
@@ -24,39 +26,24 @@ function App() {
 
   if(code) exchangeToken();
 
-  useEffect(()=>{ console.log("activitiesdasddsa", activities) }, [activities]);
+  useEffect(() => {
+    console.log('activities', activities);
+  }, [activities])
 
   const authorize = () => {
-    const url = `https://www.strava.com/oauth/authorize?client_id=${client_id}&response_type=code&redirect_uri=${config.app_url}&approval_prompt=auto&scope=read`;
-    return window.location.href = url;
-  }
-
-  const renderActivities = () => {
-    const athletes = {};
-    activities.forEach( activity => {
-      athletes[activity.athlete.firstname] = athletes[activity.athlete.firstname] || 0;
-      athletes[activity.athlete.firstname] += Math.round(activity.moving_time / 60);
-    })
-    const sortedAthletes = Object.entries(athletes).sort(([,a],[,b]) => b-a);
-    return sortedAthletes.map( ([athlete, minutes], i) => {
-      console.log("athlete", athlete)
-      const time = Math.floor(minutes / 60) + ' hours ' + minutes % 60;
-      return <><div className="athlete">#{i+1} {athlete}</div><div className="time"> {time} mins</div></>
-    });
+    // const url = `https://www.strava.com/oauth/authorize?client_id=${client_id}&response_type=code&redirect_uri=${config.app_url}&approval_prompt=auto&scope=read`;
+    // return window.location.href = url;
   }
 
   return (
     <div className="App">
       <header className="App-header">
-        {activities ? <>
-        <h3>🏆 Fixter Champions 🏆</h3>{renderActivities()}</> :
-          <a
-            className="App-link"
-            rel="noopener noreferrer"
-            onClick={authorize}
-          >
-            Authorize Strava
-          </a>
+        {activities.length ? <>
+        <h3>have activities</h3></> :<>
+            <a className="App-link" onClick={authorize}>
+              Authorize Strava
+            </a>
+          </>
         }
       </header>
     </div>
